@@ -16,11 +16,19 @@ Daily weather records for 10 Indian cities from 2000–2024, sourced from Kaggle
 
 Tools used
 Excel — data cleaning, feature engineering (year/month/season columns, anomaly percentage via VLOOKUP/XLOOKUP, heatwave flags using PERCENTILE.INC), and pivot table analysis
+
 Power BI — interactive multi-page dashboard with DAX measures, conditional formatting, slicers, and combo charts
+
 Pivot tables → dashboard pages
+
 Pivot table	Power BI visual	What it shows
+
 Warming Trend	Line chart	Year-over-year avg. max temperature by city
+
 Monsoon Intensity	Clustered column chart	Total rainfall by year and city
+
 Monsoon Volatility Matrix	100% stacked bar chart	Proportion of rain-day categories (heavy/light/moderate/no rain) per city
+
 City Climate Profile	Matrix (heatmap)	Avg. rainfall and avg. temperature by month × city
+
 Annual Climate Calendar	Combo chart (climograph)	Monthly rainfall (bars) vs. avg. temperature (line)
