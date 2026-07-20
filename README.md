@@ -10,6 +10,7 @@ To analyze long-term temperature and rainfall patterns across India's major citi
 Which cities are warming the fastest over the last 25 years?
 How intense and volatile is the monsoon across different regions?
 What does the seasonal rainfall and temperature calendar look like for each city?
+
 Data source
 
 Daily weather records for 10 Indian cities from 2000–2024, sourced from Kaggle. The fact table contains 91,320 daily records across 18 columns (~1.64 million cells), covering metrics like max/min temperature, precipitation, and derived indicators.
